@@ -5,7 +5,9 @@ MultiComSh es un proyecto donde se pretende generar un software que en cripta de
 Fue creado originalmente por Danyel Morales para un grupo de hacking ético que se dedica a ayudar a empresas con baja seguridad en cuanto a aplicaciones en PHP y ASP, por lo que en algún momento se necesito de un método de comunicación mediante el cual se necesitaría enviar mensajes ya sea mediante una RED, por internet o redes sociales.
 Un ejemplo de lo que estamos escribiendo será el ambiente que a continuación describimos:
 
-
+************************************************************
+DATOS
+************************************************************
 -Un miembro del equipo creaba un mensaje con MultiComSh.
 
 -Suponiendo que era texto plano, este seria encriptado y subido a algun storage externo todo con el software.
@@ -19,16 +21,20 @@ Un ejemplo de lo que estamos escribiendo será el ambiente que a continuación d
 
 El plan era que el software lo hiciera todo y muchos de los servicios a utilizar eran:
 
+
 -PASTEBINS
 
 -TINYPICS
 
 -OTROS
 
-
+************************************************************
+ECRIPTACIÓN
+************************************************************
 En cuanto a la manera de encriptarlo, todo estaba bien planeado:
 
-Entraría la cadena de texto o archivo al Motor de encriptaciones (CryptoShaurus), posteriormente este realizaría los siguientes pasos:
+Entraría la cadena de texto o archivo al Motor de encriptaciones (CryptoShaurus), posteriormente 
+este realizaría los siguientes pasos:
 
 
 -La InformationSeed seria enviada a métodos de encriptación, convirtiéndose a algún algoritmo de encriptación.
@@ -43,9 +49,9 @@ Entraría la cadena de texto o archivo al Motor de encriptaciones (CryptoShaurus
 
 -El archivo final seria subido automáticamente a algún storage.
 
-
+************************************************************
 Características pensadas:
-
+************************************************************
 -Cada componente de MultiCommSh Funcioanria  como un componente independiente de los demás, por lo que no era necesario utilizar a fuerza todos los procesos anteriores.
 
 -100% flexible y programable.
